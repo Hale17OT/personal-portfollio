@@ -8,7 +8,7 @@ import colorSharp2 from "../assets/img/color-sharp2.png";
 export const Projects = () => {
   const projects = [
     {
-      title: "Business Startup",
+      title: "Ethiopian Airlines Ground Checklist",
       description: "Design & Development",
       imgUrl: projImg1,
     },
