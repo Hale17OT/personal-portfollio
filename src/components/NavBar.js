@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import logo from "../assets/img/default-monochrome.svg";
 import navIcon1 from "../assets/img/nav-icon1.svg";
-import navIcon2 from "../assets/img/nav-icon2.svg";
+import navIcon2 from "../assets/img/icons8-github.svg";
 import navIcon3 from "../assets/img/nav-icon3.svg";
 export const NavBar = () => {
   const [activeLink, setActiveLink] = useState("home");
@@ -75,9 +75,9 @@ hallelujah-abdissa-502ab1219
               >
                 <img src={navIcon1} alt="" />
               </a>
-              {/* <a href="#">
+              <a href="https://github.com/Hale17OT" target="blank">
                 <img src={navIcon2} alt="" />
-              </a> */}
+              </a>
               <a href="https://www.instagram.com/hale17ot/" target="blank">
                 <img src={navIcon3} alt="" />
               </a>
