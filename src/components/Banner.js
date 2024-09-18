@@ -56,7 +56,9 @@ export const Banner = () => {
               I'm a front-end web developer with a particular interest in making
               things simple and automating daily tasks.
             </p>
-            <button onClick={() => console.log("connect")}>
+            <button
+              onClick={() => window.open("https://t.me/Hale17", "_blank")}
+            >
               Let's connect <ArrowRightCircle size={25} />
             </button>
           </Col>
