@@ -5,7 +5,7 @@ import headerImg from "../assets/img/header-img.svg";
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
-  const toRotate = ["Mobile Developer", "Web Developer", "UI/UX Designer"];
+  const toRotate = ["Mobile Developer", "Web Developer", "Backend Developer"];
   const [text, setText] = useState("");
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const period = 2000;
@@ -53,8 +53,9 @@ export const Banner = () => {
               <span className="wrap">{text}</span>
             </h1>
             <p>
-              I'm a front-end web developer with a particular interest in making
-              things simple and automating daily tasks.
+              I'm a full-stack developer with a particular interest in making
+              things simple and automating daily tasks. I enjoy working on
+              projects that provide creative opportunities.
             </p>
             <button
               onClick={() => window.open("https://t.me/Hale17", "_blank")}

@@ -32,7 +32,8 @@ export const Skills = () => {
             <div className="skill-bx wow zoomIn">
               <h2>Skills</h2>
               <p>
-                Here you find the skills I have garnered over the past few years working as an intern and as a freelancer.
+                Here you find the skills I have garnered over the past few years
+                working as an intern and as a freelancer.
               </p>
               <Carousel
                 responsive={responsive}
@@ -45,7 +46,7 @@ export const Skills = () => {
                 </div>
                 <div className="item">
                   <img src={meter3} alt="Image" />
-                  <h5>UI/UX Design</h5>
+                  <h5>Backend Development</h5>
                 </div>
                 <div className="item">
                   <img src={meter2} alt="Image" />
